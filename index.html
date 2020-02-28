@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Modal</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="main.css" rel='stylesheet'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    
+   <nav class='nav'>
+       <div class='nav-logo'>
+          <img src="https://randomuser.me/api/portraits/thumb/women/50.jpg" alt='' />
+       </div>
+      <ul class='nav-list'>
+        <li class='nav-list-item'><a href='nav-link'>Home</a></li>
+        <li class='nav-list-item'><a href='nav-link'>Portfolio</a></li>
+        <li class='nav-list-item'><a href='nav-link'>Blog</a></li>
+        <li class='nav-list-item'><a href='nav-link'>Contact Me</a></li>
+      </ul>
+     </nav> 
+    <header class='header'>
+      
+         <button class='toggle' id='toggle'>
+            <i class='fas fa-bars fa-2x'></i>
+         </button>
+      
+        <h1 class='header-title'>My Landing Page</h1>
+        <p class='header-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, amet!</p>
+        <button class='btn' id='signInButton'>Sign Up</button>
+       
+    </header>
+    <div class='container'>
+      <h2>What is this landing page about?</h2><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure accusamus ab consectetur eos provident ipsa est perferendis architecto. Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit obcaecati necessitatibus.</p><br>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente optio officia ipsa. Cum dignissimos possimus et non provident facilis saepe!</p><br>
+      <h2>Tell Me More</h2><br>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eaque delectus explicabo qui reprehenderit? Aspernatur ad similique minima accusamus maiores accusantium libero autem iusto reiciendis ullam impedit esse quibusdam, deleniti laudantium rerum beatae, deserunt nemo neque, obcaecati exercitationem sit. Earum.</p><br>
+    
+      <h2>Benefits</h2><br>
+  
+      <ul class='benefit'>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul><br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quam nostrum, fugiat, itaque natus officia laborum dolorum id accusantium culpa architecto tenetur fuga? Consequatur provident rerum eius ratione dolor officiis doloremque minima optio dignissimos doloribus odio debitis vero cumque itaque excepturi a neque, expedita nulla earum accusamus repellat adipisci veritatis quam. Ipsum fugiat iusto pariatur consectetur quas libero dolor dolores dolorem, nostrum ducimus doloremque placeat accusamus iste, culpa quaerat consequatur?</p>
+</div>
+    <div class='modal-content hide'>
+    <div class='modal-container'>
+      <div class='modal'>
+        <div class='modal-header'>
+            <p>Sign Up</p>
+            <div class='close'>
+              <i class='fa fa-times fa-2x'></i>
+            </div>
+            
+        </div>
+         <div class='modal-body'>
+            Register with us to get offers, support and more
+            <form class='form'>
+              <label for='name'>Name</label>
+              <input type='text' placeholder="Enter name" class='input' />
+              <label for='email'>Email</label>
+              <input type='email' placeholder="Enter email" class='input' />
+              <label for='password'>Password</label>
+              <input type='password' placeholder="Enter password" class='input' />
+              <label for='password'>Confirm Password</label>
+              <input type='password' placeholder="Confirm password" class='input' />
+              <button type='submit' class='btn btn-submit'>Submit</button>
+            </form>
+         </div>
+         </div>
+      </div>
+    </div>
+  <script src='main.js'></script>
+</body>
+</html>
